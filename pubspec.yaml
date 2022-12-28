@@ -1,0 +1,18 @@
+name: bsteele_music_server
+description: A bsteeleMusicApp server
+version: 1.0.0
+# homepage: https://www.bsteele.com
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  args:
+  shelf:
+  shelf_router:
+  shelf_web_socket:
+
+dev_dependencies:
+  http:
+  lints:
+  test:
